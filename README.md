@@ -8,7 +8,7 @@ This library is based on the 1.1.0 version of the Gigadevice library.
 
 This project includes the [GD32VF103 Firmware Lib](https://github.com/fAiL-ix/gd32vf103) as a submodul. To clone this repository with the submodules use the following command:
 
-`git clone --recurse-submodules https://github.com/fAiL-ix/gd32v_cmake_running_led.git`
+`git clone --recurse-submodules https://github.com/fAiL-ix/gd32vf103_std_periph.git`
 
 If you already cloned the repository you can use these two commands to download the submodule:
 
