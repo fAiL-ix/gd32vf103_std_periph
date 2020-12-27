@@ -4,6 +4,18 @@ This is a standalone CMake library version of the [GD32VF103_standard_peripheral
 
 This library is based on the 1.1.0 version of the Gigadevice library.
 
+## Cloning
+
+This project includes the [GD32VF103 Firmware Lib](https://github.com/fAiL-ix/gd32vf103) as a submodul. To clone this repository with the submodules use the following command:
+
+`git clone --recurse-submodules https://github.com/fAiL-ix/gd32v_cmake_running_led.git`
+
+If you already cloned the repository you can use these two commands to download the submodule:
+
+`git submodule init`
+
+`git submodule update`
+
 ## Using this Library
 
 To use this library in your project, clone this repository somewhere into your project. Then add the library as a subdirectory and link target in your projects `CMakeLists.txt`.
